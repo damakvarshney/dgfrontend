@@ -1,0 +1,32 @@
+.topbar
+{
+    width: 100%;
+    background-color: rgb(18, 31, 43);
+    height:34px;
+}
+.topbarWrapper
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+
+ .topbarLanguage
+ {
+    font-size: 18px;
+    margin-right: 2px;
+    color: white;
+}
+.topbarSlash
+{
+    margin: 1px 1px;
+    color: white;
+}
+
+.topbarRegister
+{
+    font-size: 18px;
+    margin-right: 2px;
+    color: white;
+} 

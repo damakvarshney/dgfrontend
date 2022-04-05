@@ -1,0 +1,57 @@
+.bodyAuthenticationPage {
+  justify-content: center;
+  align-items: center;
+}
+
+.containerAuthenticationPage {
+  background-color: #2b0245;
+  height: 100vh;
+}
+.headerAuthenticationPage {
+  height: 10vh;
+  background-color: #feb93f;
+}
+.footerAuthenticationPage {
+  height: 20vh;
+  background-color: #feb93f;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.otpcontainer {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.mobilecontainer {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.partition {
+  width: 0.5vh;
+  height: 50vh;
+  background-color: #feb93f;
+  border-radius: 20px;
+  margin-right: 50px;
+}
+.footermenu {
+  height: 7vh;
+  background-color: dimgray;
+  align-self: center;
+  justify-content: center;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.internalbodycontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-self: center;
+  justify-self: center;
+  margin-top: 60px;
+}

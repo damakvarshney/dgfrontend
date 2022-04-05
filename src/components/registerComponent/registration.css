@@ -1,0 +1,104 @@
+.registration {
+  /* width: 100vw;
+    height: 100vh; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: aliceblue; */
+}
+.registrationWrapper {
+  height: 70%;
+  width: 70%;
+  display: flex;
+}
+.registrationWrapperLeft {
+  flex: 3;
+  height: 70%;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.registrationLogo {
+  font-size: 25px;
+  font-weight: 700;
+}
+.registrationWrapperRight {
+  flex: 9;
+
+  height: 70%;
+  width: 40%;
+}
+.registrationBody {
+  height: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.registrationBodyTop {
+  display: flex;
+}
+.name {
+  height: 40px;
+  width: 170px;
+  padding-left: 5px;
+  margin-right: 5px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: none;
+  color: gray;
+}
+.name:focus {
+  outline: none;
+}
+.occupation {
+  height: 40px;
+  width: 200px;
+  padding-left: 5px;
+  margin-right: 5px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: none;
+  color: black;
+}
+.occupation:focus {
+  outline: none;
+}
+.occupationItem {
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+}
+.phoneNo {
+  height: 40px;
+  width: 200px;
+  padding-left: 5px;
+  margin-right: 5px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: none;
+  color: black;
+  font-size: 16px;
+}
+.phoneNo:focus {
+  outline: none;
+}
+.register {
+  height: 40px;
+  width: 200px;
+  padding-left: 5px;
+  margin-right: 5px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border: none;
+  color: black;
+  font-size: 16px;
+  background-color: limegreen;
+  color: white;
+  cursor: pointer;
+}
+.register:focus {
+  outline: none;
+}
